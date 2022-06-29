@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="modal__bg modal2Open toClose"></div>
+    <div class="modal modal2Open">
+        <div class="heading">
+            <h3>Would you like to rename: <span class="name">name</span> to <img src="./assets/svg/corner-down-right.svg" alt=""></h3>
+            <input class="currentName" type="text">
+        </div>
+        <button class="toClose">Save changes</button>
+    </div>
+    <main>
+        <div class="container">
+            <div class="heading">
+                <h2>Todo list</h2>
+                <form name="adder">
+                    <input type="text" name="title">
+                    <input type="time" name="time">
+                    <button>Add</button>
+                </form>
+            </div>
+            <div class="card__container">
+            </div>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
